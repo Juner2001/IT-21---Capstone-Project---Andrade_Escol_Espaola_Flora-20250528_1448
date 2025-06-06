@@ -1,0 +1,33 @@
+<!-- activity_about_us.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Aquaguard"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ecoguard is dedicated to environmental preservation..." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Aquaguard Taytay is a mobile application dedicated to protecting and celebrating the rich marine biodiversity of Palawan, Philippines. Developed with the local community in mind, our mission is to raise awareness, educate users, and encourage active participation in marine conservation.\n\nThrough Aquaguard Taytay, users can:\n\n• Discover and learn about Palawan’s unique marine life\n• Watch curated documentaries and educational videos\n• Read engaging storybooks focused on marine protection\n• Enjoy interactive quizzes and puzzles\n• Bookmark species of interest for easy reference\n• Report illegal activities such as poaching, coral damage, or pollution directly to the proper authorities\n\nWhether you are a student, diver, fisherfolk, or simply a nature lover, Aquaguard Taytay empowers you to explore and protect our ocean — one click at a time.\n\nTogether, we can safeguard the seas for future generations.\n\n🌊 Protect. Learn. Report. Engage.\nThis is Aquaguard Taytay."
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/explore_solid_svgrepo_com"
+        android:title="Explore" />
+
+    <item
+        android:id="@+id/navContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/contact"
+        android:title="Complaint" />
+
+    <!-- LEGAL PROTECTION (added here in the middle) -->
+    <item
+        android:id="@+id/navLegal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/marines"
+    android:title="Legal Protection" />
+
+    <item
+        android:id="@+id/navFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/bookmark"
+        android:title="Bookmark" />
+
+    <item
+        android:id="@+id/navEdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/education_learning_2_svgrepo_com__1_"
+        android:title="Education" />
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ReportFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Toggle Button (Segmented Style) -->
+        <RadioGroup
+            android:id="@+id/messageToggleGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_segment_container"
+            android:padding="4dp">
+
+            <RadioButton
+                android:id="@+id/rbMail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="4dp"
+                android:button="@null"
+                android:background="@drawable/bg_segment_left"
+                android:gravity="center"
+                android:paddingHorizontal="24dp"
+                android:text="Mail"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/rbSms"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:background="@drawable/bg_segment_right"
+                android:gravity="center"
+                android:paddingHorizontal="24dp"
+                android:text="SMS"
+                android:textColor="@color/black" />
+        </RadioGroup>
+
+        <!-- Ban Message -->
+        <TextView
+            android:id="@+id/tvBanMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🚫 You are temporarily banned due to spamming."
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:visibility="gone"
+            android:background="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Mail Layout Wrapper -->
+        <FrameLayout
+            android:id="@+id/chatLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <include layout="@layout/report_layout" />
+        </FrameLayout>
+
+        <!-- SMS Layout Wrapper -->
+        <FrameLayout
+            android:id="@+id/smsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include layout="@layout/sms_layout" />
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

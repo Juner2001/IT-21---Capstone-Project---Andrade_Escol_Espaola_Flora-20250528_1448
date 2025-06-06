@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+    <!-- Toggle Button to switch between layouts -->
+    <ToggleButton
+        android:id="@+id/toggleLayoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Chat Layout"
+        android:textOn="SMS Layout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- FrameLayout container for switching layouts -->
+    <FrameLayout
+        android:id="@+id/frameLayoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toggleLayoutButton">
+
+        <!-- Chat Layout -->
+        <include
+            android:id="@+id/chatLayout"
+            layout="@layout/report_layout"
+            android:visibility="visible" />
+
+        <!-- SMS Layout -->
+        <include
+            android:id="@+id/smsLayout"
+            layout="@layout/sms_layout"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+</RelativeLayout>

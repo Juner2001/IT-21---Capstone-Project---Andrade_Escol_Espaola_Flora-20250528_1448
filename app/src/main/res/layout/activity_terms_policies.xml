@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aquaguard Taytay\nTerms of Service and Privacy Policy"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:padding="12dp" />
+
+        <!-- Container for Terms and Policies -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            android:background="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- TERMS OF SERVICE -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terms of Service"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1E88E5"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effective Date: April 30, 2025\n\nWelcome to Aquaguard Taytay, a mobile application designed to promote marine awareness and conservation in Palawan. These Terms govern your use of the Aquaguard Taytay app and services. By using our app, you agree to these Terms.\n\nThe Services We Provide\n\n• Explore marine life native to Palawan\n• View up-to-date information on marine species\n• Watch marine-focused documentary videos\n• Read digital storybooks related to marine ecosystems\n• Participate in quizzes and puzzles\n• Bookmark species of interest\n• Report illegal or harmful marine activities\n\nOur goal is to support marine conservation through community engagement and education.\n\nWho Can Use Aquaguard Taytay\n\nYou must be at least 13 years old to use Aquaguard Taytay. By using the app, you affirm that:\n• You are legally permitted to use the service\n• The information you provide is accurate\n\nYour Commitments\n\nYou agree not to:\n• Submit false or spammy reports\n• Upload harmful content\n• Infringe copyrights\n• Access restricted parts illegally\n\nViolation may result in account suspension.\n\nContent and Intellectual Property Rights\n\nAll content is protected by copyright. Reuse or distribution without permission is prohibited.\n\nReporting Tools\n\nReports are reviewed and forwarded when appropriate. Misuse may lead to suspension.\n\nThird-Party Content\n\nWe are not responsible for the accuracy or safety of third-party links and content.\n\nModifications to Terms\n\nWe may update these Terms. Continued use means acceptance.\n\nLimitation of Liability\n\nWe are not liable for damages arising from app use.\n\nGoverning Law\n\nThese Terms are governed by Philippine law.\n\nContact us at: aquaguardtaytay@gmail.com"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+                <!-- PRIVACY POLICY -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nPrivacy Policy"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1E88E5"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Effective Date: April 30, 2025\n\nThis Privacy Policy explains how Aquaguard Taytay collects, uses, and shares your information.\n\nInformation We Collect\n\n• Account info (if provided): name, email\n• Usage data: bookmarks, quizzes\n• Reporting data: photos, descriptions\n• Device info: version, OS\n\nHow We Use Your Info\n\n• Provide and improve services\n• Share reports with agencies\n• Analyze trends\n• Contact you (if email provided)\n\nHow We Share Info\n\n• We don’t sell your data\n• May share with agencies or research groups (anonymized)\n\nYour Privacy Rights\n\nYou may:\n• Access/correct/delete your data\n• Withdraw consent\n\nEmail us at: aquaguardtaytay@gmail.com\n\nData Retention and Security\n\nWe store data securely and for only as long as necessary.\n\nChildren’s Privacy\n\nApp is not for children under 13 without consent.\n\nPolicy Updates\n\nUpdates will be communicated via app or email.\n\nContact Info\n\n📧 aquaguardtaytay@gmail.com"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

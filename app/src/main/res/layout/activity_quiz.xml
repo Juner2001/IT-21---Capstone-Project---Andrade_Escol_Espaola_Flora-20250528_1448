@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+
+        <!-- Score -->
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textSize="20sp"
+            android:textColor="#4CAF50"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Timer -->
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time left: 20s"
+            android:textSize="18sp"
+            android:textColor="#FF5722"
+            android:layout_marginBottom="20dp" />
+
+
+        <ImageView
+            android:id="@+id/quizImage"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="30dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Quiz Image" />
+
+        <!-- Question Title -->
+        <TextView
+            android:id="@+id/questionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Which animal is this?"
+            android:textSize="22sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Options -->
+        <RadioGroup
+            android:id="@+id/optionsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30dp">
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="12dp"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 2"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="12dp"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="12dp"
+                android:background="?android:attr/selectableItemBackground" />
+
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 4"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:padding="12dp"
+                android:background="?android:attr/selectableItemBackground" />
+
+        </RadioGroup>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:backgroundTint="#4CAF50"
+            android:padding="15dp" />
+
+    </LinearLayout>
+</ScrollView>

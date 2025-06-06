@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Earth circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M32,8
+            A24,24 0 1,1 32,56
+            A24,24 0 1,1 32,8z" />
+
+    <!-- Continents simplified shape on Earth -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="
+            M25,20
+            C27,18 30,18 32,21
+            C34,24 33,28 31,31
+            C29,34 27,36 25,35
+            C24,32 24,27 25,20z
+            M39,26
+            C41,24 43,25 44,27
+            C45,30 43,33 41,35
+            C39,33 38,29 39,26z" />
+
+    <!-- Hand palm (simplified) -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="
+            M12,50
+            C15,48 22,47 28,49
+            C34,51 38,53 42,54
+            C44,55 46,58 44,60
+            C42,62 35,61 28,59
+            C22,57 15,54 12,50z" />
+
+    <!-- Fingers simplified -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="
+            M14,46 L16,42 L18,44 L20,40 L22,43
+            L24,38 L26,42 L28,39 L30,43 L32,40
+            L34,44 L36,42 L38,46" />
+</vector>

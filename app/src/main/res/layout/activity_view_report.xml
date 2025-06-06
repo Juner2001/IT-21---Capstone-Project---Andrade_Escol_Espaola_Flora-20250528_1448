@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:id="@+id/llImages"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="24dp"
+        android:layout_margin="12dp"
+        android:elevation="6dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:backgroundTint="#FFFFFF"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvSubject"
+            android:text="Subject Title"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#1E2A38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="6dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_marginVertical="12dp"
+            android:background="#E0E0E0" />
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:text="Message content goes here."
+            android:textSize="17sp"
+            android:textColor="#555F6B"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="6dp"
+            android:fontFamily="sans-serif" />
+
+        <!-- New additional text -->
+        <TextView
+            android:id="@+id/tvAdditionalInfo"
+
+            android:textSize="15sp"
+            android:textColor="#888F99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="14dp" />
+    </LinearLayout>
+</ScrollView>

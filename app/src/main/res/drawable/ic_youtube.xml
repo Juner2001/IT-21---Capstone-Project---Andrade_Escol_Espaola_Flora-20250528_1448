@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Pulang background ng YouTube -->
+    <path
+        android:fillColor="#FF0000"
+        android:pathData="M21.8,5.3c-0.2-1.2-1-2.1-2.1-2.3C17.4,2.5,12,2.5,12,2.5S6.6,2.5,4.3,3C3.2,3.2,2.4,4.1,2.2,5.3 C2,7.1,2,12,2,12s0,4.9,0.2,6.7c0.2,1.2,1,2.1,2.1,2.3C6.6,21.5,12,21.5,12,21.5s5.4,0,7.7-0.3c1.1-0.2,1.9-1.1,2.1-2.3 C23,16.9,23,12,23,12S23,7.1,21.8,5.3z"/>
+
+    <!-- Puting play button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,15V9l5,3L10,15z"/>
+
+</vector>

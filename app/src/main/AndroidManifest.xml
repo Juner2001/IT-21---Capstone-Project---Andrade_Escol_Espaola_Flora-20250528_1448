@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ecoguard">
+
+
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/fish"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseAuthentication"
+        tools:targetApi="31">
+
+        <!-- Activities -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <activity
+            android:name=".ViewAllSpeciesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ReportHistoryActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ViewReportActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PuzzleActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".LegalProtectionFragment"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".LegalDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RewardActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".EasyPuzzleActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".PuzzleLevelActivity"
+            android:exported="false" />
+
+
+
+
+
+
+
+
+        <activity
+            android:name=".UltimateFunGames"
+            android:exported="false" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".IdentifierActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".BrandActivity"
+            android:exported="true"
+            android:theme="@style/MySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AboutUsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".TermsPoliciesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".VerifyActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+
+        <!-- Add ListFoodsActivity -->
+        <activity
+            android:name=".ListSpeciesActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".FunQuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".DocumentaryVideosActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+
+        <activity
+            android:name=".StoryBooksActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".SearchActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditPersonalInfoActivity"
+
+            android:exported="false" />
+
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".StoryDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".BannerDetailActivity"
+            android:exported="false" />
+
+
+
+
+    </application>
+</manifest>

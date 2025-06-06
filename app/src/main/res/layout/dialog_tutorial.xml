@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_card"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/tvTutorialTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to AquaGuard!"
+        android:textAppearance="?attr/textAppearanceHeadline5"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvTutorialMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here's a quick tutorial on how to use the app:\n\n- Use the bottom navigation to explore.\n- Report species sightings.\n- Check legal protections.\n- Save your favorite species."
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="#424242"
+        android:lineSpacingExtra="4dp" />
+
+    <Button
+        android:id="@+id/btnGotIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Got it"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#00796B"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="2dp"/>
+
+</LinearLayout>

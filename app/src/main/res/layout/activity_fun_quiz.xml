@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quizLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FAFAFA"
+    tools:context=".FunQuizActivity">
+
+    <!-- Top Bar: Timer, Attempts, Score -->
+    <LinearLayout
+        android:id="@+id/topBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Time left: 20s"
+            android:textColor="#D32F2F"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/attemptsTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Attempts: 0/10"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#555"
+            android:layout_weight="1"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/scoreTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Score: 0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#555"
+            android:layout_weight="1"
+            android:gravity="end" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/questionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which species is this?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/topBarLayout" />
+
+
+    <ImageView
+        android:id="@+id/speciesImage"
+        android:layout_width="280dp"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/questionTitle"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/image_background"
+        android:contentDescription="Species Image" />
+
+    <!-- Options -->
+    <LinearLayout
+        android:id="@+id/optionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/speciesImage"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/option1"
+            style="?android:attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:backgroundTint="#EEEEEE"
+            android:layout_marginBottom="14dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option2"
+            style="?android:attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:backgroundTint="#EEEEEE"
+            android:layout_marginBottom="14dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option3"
+            style="?android:attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:backgroundTint="#EEEEEE"
+            android:layout_marginBottom="14dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/option4"
+            style="?android:attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 4"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:backgroundTint="#EEEEEE"
+            android:padding="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

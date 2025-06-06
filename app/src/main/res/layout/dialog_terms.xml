@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/tvTermsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aquaguard Taytay\nTerms of Service and Privacy Policy"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scrollable content area -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvTermsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            android:text="Effective Date: April 30, 2025\n\nWelcome to Aquaguard Taytay, a mobile application designed to promote marine awareness and conservation in Palawan. These Terms govern your use of the Aquaguard Taytay app and services. By using our app, you agree to these Terms.\n\nThe Services We Provide\n• Explore marine life native to Palawan\n• View up-to-date information on marine species\n• Watch marine-focused documentary videos\n• Read digital storybooks related to marine ecosystems\n• Participate in quizzes and puzzles\n• Bookmark species of interest\n• Report illegal or harmful marine activities\n\nWho Can Use Aquaguard Taytay\nYou must be at least 13 years old. You affirm that:\n• You are legally permitted to use the service\n• The information you provide is accurate\n\nYour Commitments\nYou agree not to:\n• Submit false or spammy reports\n• Upload harmful or unlawful content\n• Infringe copyrights\n• Access restricted systems\n\nContent and Intellectual Property Rights\nAll app content is protected by law. Do not copy, reuse, or distribute it without permission.\n\nReporting Tools\nUse reporting responsibly. Abuse may result in account suspension.\n\nThird-Party Content\nExternal links (e.g., YouTube) are not our responsibility.\n\nModifications to Terms\nTerms may change. Continued use means you accept them.\n\nLimitation of Liability\nAquaguard Taytay is provided as is . We are not liable for damages.\n\nGoverning Law\nPhilippine law governs these Terms.\n\nContact Us\n📧 aquaguardtaytay@gmail.com\n\nPrivacy Policy\n\nInformation We Collect:\n• Name, email (if provided)\n• Usage and device data\n• Reports and optional location data\n\nHow We Use Info:\n• Improve app features\n• Forward reports to agencies\n• Analyze trends\n• Contact you if needed\n\nWe Don’t:\n• Sell or rent your data\n\nWe May Share With:\n• Partner agencies\n• Service providers\n• Researchers (anonymized only)\n\nYour Rights:\n• Access, correct, or delete your data\n• Withdraw consent for email/contact\n\nChildren’s Privacy:\nNot intended for users under 13 without parental consent.\n\nPolicy Updates:\nUpdates will be communicated via app or email.\n\n📧 Contact: aquaguardtaytay@gmail.com" />
+    </ScrollView>
+
+    <!-- Close button -->
+    <Button
+        android:id="@+id/btnCloseTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:backgroundTint="#00796B"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+</LinearLayout>
